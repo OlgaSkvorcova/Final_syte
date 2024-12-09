@@ -1,0 +1,231 @@
+.form{
+    height: 500px;
+    width: 1100px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 250px;
+    right: -330px;
+} 
+h2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 34px 0 40px 25px;
+    justify-content: flex-end;
+}
+.icon1{
+    height: 20px;   
+    width: 20px;
+    margin: 0px 0px 0px 30px;
+}
+.form1{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin: 0 0 40 0;
+    height: 18px;
+}
+.Name{
+    border: none;
+    border-bottom: 1px solid rgb(119, 118, 118);
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+   }
+.Name1{
+    border: none;
+    border-bottom: 1px solid rgb(119, 118, 118);
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+}
+#gender{
+    border: none;
+    border-bottom: 1px solid rgb(119, 118, 118);
+    background-color: transparent;
+    outline: none;
+    display: grid;
+    justify-content: end;
+    color: gray;
+    width: 178px;
+}
+.form1 >.Name{
+    width: 87%;
+}
+.register{
+    margin: 0 10 0 0;
+}
+.data {
+    position: relative;
+    display: grid;
+    justify-content: end;
+    top: -34px;
+    width: 50px;
+    right: -310px;
+   
+}
+.footer1{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: stretch;
+    top: 640px;
+    left: 390px;
+}
+.mail{
+    display: flex;
+    position: absolute;
+    top: 640px;
+    right: -10px;
+    flex-direction: column;
+    gap: 30px;
+} 
+hr{
+    position: relative;
+    display: flex;
+    top: -150px;
+    width: 96%;
+    left: -16px;
+}
+
+  .form_left{
+    flex: 1;
+  }
+ 
+  .main{
+    display: flex;
+    gap: 30px;
+    max-width: 1110px; 
+    margin: 200px auto;
+    padding: 0 20px;
+}
+  .main_right_one .icon3:hover{
+    
+    background-color: aquamarine;
+} 
+/* @media screen and (max-width:900px) and (min-width:600px){
+    .form{
+        height: 750px;
+        width: 600px;
+        flex-direction: column;
+    }
+    .personal{
+        position: relative;
+        display: grid;
+        justify-content: start;
+        left: 40px;
+    }
+    .footer{
+        top: 535px;
+        left: 45px;
+    }
+    .mail{
+        top: -55px;
+        right: -434px;
+    } 
+    .personal h3{
+        margin: 34 0 40;
+    }
+    #gender{
+        display: grid;
+        justify-content: end;
+        color: gray;
+        width: 240px;
+    }
+    .Name{
+        width: 225px;
+    }
+    .Name1{
+        width: 240px;
+    }
+    hr {
+        
+        top: -150px;
+        width: 100%;
+        left: 0px;
+    }
+    .form1 >.Name{
+        width: 80%;
+    }
+}
+@media screen and (max-width:600px){
+    .form{
+        height: 900px;
+        width: 450px;
+        flex-direction: column;
+    }
+    .personal{
+        position: relative;
+        display: grid;
+        justify-content: start;
+        left: 40px;
+        top: 40px;
+    }
+    .footer{
+        top: 685px;
+        left: 45px;
+    }
+    .mail{
+        top: -55px;
+        right: -285px;
+    } 
+    .personal h3{
+        margin: 34 0 40;
+    }
+    #gender{
+        display: grid;
+        justify-content: end;
+        color: gray;
+        width: 240px;
+        top: 60px;
+        position: relative;
+    }
+    .Name{
+        width: 225px;
+    }
+    .Name1{
+        width: 240px;
+    }
+    hr {
+        
+        top: -150px;
+        width: 100%;
+        left: 0px;
+    }
+    .form1 >.Name{
+        width: 50%;
+    }
+    .register div:nth-child(4){
+        display: flex;
+        position: relative;
+        flex-direction: column;  
+        gap: 40px;   
+    }
+    .one {
+        position: relative;
+        display: flex;
+        left: 68px;
+        width: 352px;
+        top: -60px;
+    }
+    .two{
+        position: relative;
+        display: flex;
+        left: 68px;
+        width: 352px;
+        top: -60px;
+    }
+    .four{
+        position: relative;
+        display: flex;
+        top: 60px;
+        left: -260px;
+     }
+     .data{
+        top: 100px;
+        left: -275px;
+     }
+} */
